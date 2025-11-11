@@ -1,6 +1,6 @@
 const from = document.querySelector("myform");
-
-from.addEventListener("submit");
+from.addEventListener("submit" , (e) => {
+e.preventDefault();
 
 const name = document.querySelector('input[placeholder="ismingiz"]').value;
 
@@ -15,3 +15,7 @@ if (! name || ! surname || !password || !email || !gender) {
 } else {
     alert("tabriklayman royxatan otingiz.");
 }
+
+console.log(myfrom.value.trim());
+console.log(submit.value.trim());
+});
