@@ -57,5 +57,22 @@ form input[type="radio"] {
   margin-right: 5px;
 }
 
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+  }
+
+  button:hover {
+    background-color: #218838;
+  }
+
 
 
