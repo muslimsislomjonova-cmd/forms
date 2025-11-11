@@ -60,7 +60,7 @@ form input[type="radio"] {
   button {
     width: 100%;
     padding: 10px;
-    background-color: #28a745;
+    background-color: #701682;
     border: none;
     color: white;
     border-radius: 8px;
@@ -71,8 +71,5 @@ form input[type="radio"] {
   }
 
   button:hover {
-    background-color: #218838;
-  }
-
-
+    background-color: #
 
